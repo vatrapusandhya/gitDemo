@@ -10,15 +10,12 @@ public class Browser {
 		// TODO Auto-generated method stub
 		
 		//Invoke Browser
-		//chrome - ChromeDriver
-		
+		//chrome - ChromeDriver		
 		System.setProperty("webdriver.chrome.driver", "/Users/sandhyavatrapu/Documents/chromedriver");
 		// will get all the chromeDriver methods which are in webDriver interface
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://rahulshettyacademy.com/");
-		
-		
-
+		driver.get("https://www.facebook.com/");
+			
 	}
 
 }
